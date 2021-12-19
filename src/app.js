@@ -1,7 +1,7 @@
 import Pages from './pages';
 import GlobalStyle from './styles/globalStyle';
 import UserContext from './context/UserContext.js';
-import { useState } from 'react';
+import { useState } from 'react'; 
 
 const App = function () {
   const [teacherId, setTeacherId] = useState('');
