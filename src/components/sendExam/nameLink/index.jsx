@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import UserContext from '../../../context/UserContext';
 import stringSchema from '../../../validation/stringValidation';
-import BASE_URL from '../../service/baseUrl.js';
+import BASE_URL from '../../../service/baseUrl.js';
 
 export default function FinishSendExam () {
   const {teacherId, classId, type, name, setName, link, setLink, } = useContext(UserContext);

@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useContext, useEffect, useState } from 'react';
 import styled from 'styled-components';
-import BASE_URL from '../../service/baseUrl.js';
+import BASE_URL from '../../../service/baseUrl.js';
 import { Button } from '../../../styles/shared.js';
 import { useNavigate } from 'react-router-dom';
 import UserContext from '../../../context/UserContext.js';

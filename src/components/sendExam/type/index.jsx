@@ -19,7 +19,7 @@ export default function SelectType () {
       <Button onClick={() => handleClick('P2')}>P2</Button>
       <Button onClick={() => handleClick('P3')}>P3</Button>
       <Button onClick={() => handleClick('2ch')}>2ch</Button>
-      <Button onClick={() => handleClick('Outras')}>Outras</Button>
+      <Button onClick={() => handleClick('Others')}>Outras</Button>
     </Page>
   );
 }
