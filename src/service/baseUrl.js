@@ -1,5 +1,5 @@
 import process from 'process';
 
-const BASE_URL = process.env.NODE_ENV === 'production' ? 'https://repoprovas-marcio.herokuapp.com' : 'http://localhost:4000';
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 export default BASE_URL;
