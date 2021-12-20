@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Repoprovas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem vindo ao repoprovas, o intuito deste projeto era criar um site fullstack onde poderiam ser postadas provas e ver provas já postadas.
 
-## Available Scripts
+<h1> Tecnologias usadas </h1>
 
-In the project directory, you can run:
+<img src='https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E' />
+<img src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB' />
+<img src='https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white' />
+<img src='https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white' />
+<img src='https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white' />
+<img src='https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white' />
 
-### `npm start`
+<h1> Como utilizar </h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para utilizar este projeto, você pode usar direto o deploy dele:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a href='https://repo-provas-front-taupe.vercel.app/'>Deploy</a>
 
-### `npm test`
+Caso queira usar um banco local, o primeiro passo será organizar o back, que pode ser encontrado aqui:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a href='https://github.com/MarcioVCunha/RepoProvas-Back'>Backend</a>
 
-### `npm run build`
+Depois de ter o back pronto, você terá que baixar o repositorio do front
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    git clone https://github.com/MarcioVCunha/RepoProvas-Front
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Com o repositorio baixado, você encontrará um arquivo chamado '.env.example', renomeie para .env e preencha com as especificações do seu banco.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Depois disso, basta instalar as libs
 
-### `npm run eject`
+    npm i
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+e rodar o seguinte comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+que o site iniciará sozinho.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h1>Adcionais</h1>
 
-## Learn More
+Link do trello:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href='https://trello.com/b/XzCzzI1a/repoprovas'>Trello</a>
